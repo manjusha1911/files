@@ -1,0 +1,12 @@
+f1=open("mlines.txt","w")
+lines=("welcome\n","python\n","progamming\n")
+f1.writelines(lines)
+f1.close()
+f1=open("mlines.txt","a")
+f1.write("hello")
+# f1.write("\nhello")
+f1.close()
+f1=open("mlines.txt","r")
+print(f1.read())
+f1.close()
+
